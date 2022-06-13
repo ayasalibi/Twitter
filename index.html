@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/twitter-logo.svg" type="image/x-icon">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Twitter Clone</h1>
+            <img src="images/twitter-logo.svg" alt="twitter-logo">
+        </header>
+        <form id="tweetFrom">
+            <div class="input-group">
+                <input type="text" id="username" name="username" placeholder="username" required>
+            </div>
+            <div class="input-group">
+                <textarea id="tweet" name="tweet" placeholder="tweet" required></textarea>
+            </div>
+            <div class="btn-group">
+                <button type="submit">Tweet</button>
+            </div>
+        </form>
+        <div id="newsfeed">
+            <h2 id="noTweets">No Tweets...</h2>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
